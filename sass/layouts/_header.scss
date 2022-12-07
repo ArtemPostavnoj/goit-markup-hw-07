@@ -1,13 +1,13 @@
-.header-nav{
+.navigation__list{
     display: flex;
     gap: 50px;
 }
-.page-header{
+.header{
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.contacts-nav-flex{
+.header-contacts{
     display: flex;
     gap: 50px;
     text-align: center;
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
 }
-.logo{
+.header-container__logo{
     color: black;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -38,7 +38,7 @@
 .navigation{
     margin-right: auto;
 }
-.link-nav{
+.navigation__link{
     position: relative;
     color: #212121;
     text-decoration: none;
@@ -50,11 +50,11 @@
     padding-bottom: 36px;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.link-nav:hover, 
-.link-nav:focus{
+.navigation__link:hover, 
+.navigation__link:focus{
     color: #2196F3;
 }
-.contacts-nav{
+.header-contacts__item{
     color: #757575;
     text-decoration: none;
     font-weight: 500;
@@ -67,17 +67,17 @@
     align-items: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.contacts-nav:hover, 
-.contacts-nav:focus{
+.header-contacts__item:hover, 
+.header-contacts__item:focus{
     color: #2196F3;
 }
-.icon-contacts{
+.header-contacts__icon{
     fill: #757575;
     margin-right: 10px;
 }
-.contacts-nav:hover .icon-contacts{
+.header-contacts__item:hover .header-contacts__icon{
     fill: #2196F3;
 } 
-.contacts-nav:focus .icon-contacts{
+.header-contacts__item:focus .header-contacts__icon{
     fill: #2196F3;
 } 

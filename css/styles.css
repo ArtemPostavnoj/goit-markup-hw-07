@@ -34,16 +34,16 @@ ul{
 }
 
 /* Header */
-.header-nav{
+.navigation__list{
     display: flex;
     gap: 50px;
 }
-.page-header{
+.header{
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.contacts-nav-flex{
+.header-contacts{
     display: flex;
     gap: 50px;
     text-align: center;
@@ -52,7 +52,7 @@ ul{
     display: flex;
     align-items: center;
 }
-.logo{
+.header-container__logo{
     color: black;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -74,7 +74,7 @@ ul{
 .navigation{
     margin-right: auto;
 }
-.link-nav{
+.navigation__link{
     position: relative;
     color: #212121;
     text-decoration: none;
@@ -86,11 +86,11 @@ ul{
     padding-bottom: 36px;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.link-nav:hover, 
-.link-nav:focus{
+.navigation__link:hover, 
+.navigation__link:focus{
     color: #2196F3;
 }
-.contacts-nav{
+.header-contacts__item{
     color: #757575;
     text-decoration: none;
     font-weight: 500;
@@ -103,18 +103,18 @@ ul{
     align-items: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.contacts-nav:hover, 
-.contacts-nav:focus{
+.header-contacts__item:hover, 
+.header-contacts__item:focus{
     color: #2196F3;
 }
-.icon-contacts{
+.header-contacts__icon{
     fill: #757575;
     margin-right: 10px;
 }
-.contacts-nav:hover .icon-contacts{
+.header-contacts__item:hover .header-contacts__icon{
     fill: #2196F3;
 } 
-.contacts-nav:focus .icon-contacts{
+.header-contacts__item:focus .header-contacts__icon{
     fill: #2196F3;
 } 
 /* Main index */
@@ -134,7 +134,7 @@ ul{
     text-align: center;
     max-width: 1600px;
 }
-.banner-title{
+.container-banner__title{
     color: #FFFFFF;
     text-align: center;
     font-weight: 900;
@@ -225,7 +225,7 @@ ul{
     display: flex;
     gap: 30px;
 }
-.title-advances{  
+.advances__title{  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
@@ -233,16 +233,16 @@ ul{
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.content-advances {
+.advances__content {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
 }
-.advances-list{
+.advances__list{
     width: 270px;
 }
-.advances-style{
+.advances__style{
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
@@ -251,7 +251,7 @@ ul{
     align-items: center;
     justify-content: center;
 }
-.title-working{
+.container-working__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -259,19 +259,19 @@ ul{
     letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
-.working-img{
+.container-working__img{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.working{
+.container-working__list{
     display: flex;
     gap: 30px;
 }
-.position-working{
+.container-working__item{
     position: relative;
 }
-.text-working{
+.container-working__text{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -290,11 +290,11 @@ ul{
     width: 100%;
     height: 72px;
 }
-.team{
+.container-team__list{
     display: flex;
     gap: 30px;
 }
-.title-team{
+.container-team__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -302,7 +302,7 @@ ul{
     letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
-.title-teammate{
+.team-content__name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -326,21 +326,21 @@ ul{
     max-width: 100%;
     height: auto;
 }
-.team-picture{
+.container-team__picture{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.team-soc-list{
+.team-soc{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.team-soc-item{
+.team-soc__item{
     width: 44px;
     height: 44px;
 }
-.team-soc-link{
+.team-soc__link{
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -350,20 +350,20 @@ ul{
     justify-content: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.team-soc-link:hover,
-.team-soc-link:focus{
+.team-soc__link:hover,
+.team-soc__link:focus{
     background-color: #2196F3;
 }
-.team-soc-icon{
+.team-soc__icon{
     fill: #AFB1B8;
 }
-.team-soc-link:hover .team-soc-icon {
+.team-soc__link:hover .team-soc__icon {
     fill: #FFFFFF;
 }
-.team-soc-link:focus .team-soc-icon{
+.team-soc__link:focus .team-soc__icon{
     fill: #FFFFFF;
 }
-.content-post{
+.team-content__position{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;

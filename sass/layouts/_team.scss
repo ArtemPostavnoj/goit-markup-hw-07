@@ -1,8 +1,8 @@
-.team{
+.container-team__list{
     display: flex;
     gap: 30px;
 }
-.title-team{
+.container-team__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -10,7 +10,7 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
-.title-teammate{
+.team-content__name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -34,21 +34,21 @@
     max-width: 100%;
     height: auto;
 }
-.team-picture{
+.container-team__picture{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.team-soc-list{
+.team-soc{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.team-soc-item{
+.team-soc__item{
     width: 44px;
     height: 44px;
 }
-.team-soc-link{
+.team-soc__link{
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -58,20 +58,20 @@
     justify-content: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-.team-soc-link:hover,
-.team-soc-link:focus{
+.team-soc__link:hover,
+.team-soc__link:focus{
     background-color: #2196F3;
 }
-.team-soc-icon{
+.team-soc__icon{
     fill: #AFB1B8;
 }
-.team-soc-link:hover .team-soc-icon {
+.team-soc__link:hover .team-soc__icon {
     fill: #FFFFFF;
 }
-.team-soc-link:focus .team-soc-icon{
+.team-soc__link:focus .team-soc__icon{
     fill: #FFFFFF;
 }
-.content-post{
+.team-content__position{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;

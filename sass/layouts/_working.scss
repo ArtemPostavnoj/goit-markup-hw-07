@@ -1,4 +1,4 @@
-.title-working{
+.container-working__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
@@ -6,19 +6,19 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
-.working-img{
+.container-working__img{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.working{
+.container-working__list{
     display: flex;
     gap: 30px;
 }
-.position-working{
+.container-working__item{
     position: relative;
 }
-.text-working{
+.container-working__text{
     position: absolute;
     bottom: 0;
     left: 0;

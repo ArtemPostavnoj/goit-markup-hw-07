@@ -2,7 +2,7 @@
     display: flex;
     gap: 30px;
 }
-.title-advances{  
+.advances__title{  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
@@ -10,16 +10,16 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.content-advances {
+.advances__content {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
 }
-.advances-list{
+.advances__list{
     width: 270px;
 }
-.advances-style{
+.advances__style{
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
