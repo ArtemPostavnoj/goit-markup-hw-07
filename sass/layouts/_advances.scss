@@ -1,0 +1,30 @@
+.advances{
+    display: flex;
+    gap: 30px;
+}
+.title-advances{  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.content-advances {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+}
+.advances-list{
+    width: 270px;
+}
+.advances-style{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
