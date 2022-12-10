@@ -33,11 +33,12 @@ footer{
     line-height: 1.7142;
     letter-spacing: 0.03em;
     font-style: normal;
-}
-.address:focus,
-.address:hover{
+    &:focus,
+    &:hover{
     color: #2196F3; 
+   }
 }
+
 .contacts-footer{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -46,11 +47,12 @@ footer{
     line-height: 1.7142;
     letter-spacing: 0.03em;
     font-style: normal;
-}
-.contacts-footer:hover,
-.contacts-footer:focus{
+    &:hover,
+    &:focus{
     color: #2196F3;
+   }
 }
+
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -67,13 +69,14 @@ footer{
     padding-right: 22px;
     border: none;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-.button-filter:focus,
-.button-filter:hover{
+    &:focus,
+    &:hover{
     background: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   }
 }
+
 .container-contacts-footer{
     width: 1200px;
     padding-left: 15px;
@@ -112,11 +115,12 @@ footer{
     align-items: center;
     justify-content: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-.footer-soc-link:hover,
-.footer-soc-link:focus{
+    &:hover,
+    &:focus{
     background-color: #2196F3; 
+   }
 }
+
 .footer-transition{
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
@@ -146,10 +150,12 @@ footer{
     padding-top: 15px;
     padding-bottom: 15px;
     color: #FFFFFF;
-}
-.input-footer:focus{
+    &:focus,
+    &:hover{
     border-color: #2196F3;
+   }
 }
+
 .input-footer::placeholder{
     font-weight: 400;
     font-size: 16px;

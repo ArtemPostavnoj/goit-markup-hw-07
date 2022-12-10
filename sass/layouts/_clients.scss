@@ -10,17 +10,12 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-.clients-item:hover,
-.clients-item:focus{
+    &:hover,
+    &:focus{
     border-color: #2196F3;
+    }
 }
-.clients-item:hover .clients-icon{
-    fill: #2196F3;
-}
-.clients-item:focus .clients-icon{
-    fill: #2196F3;
-}
+
 .clients-link{
     width: 100%;
     height: 100%;
@@ -31,4 +26,8 @@
 .clients-icon{
     fill: #AFB1B8;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    &:hover
+    &:focus{
+        fill: #2196F3; 
+    }
 }

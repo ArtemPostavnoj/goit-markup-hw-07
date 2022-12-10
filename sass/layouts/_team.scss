@@ -57,20 +57,20 @@
     align-items: center;
     justify-content: center;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    &:hover,
+    &:focus{
+     background-color: #2196F3;
+    }
 }
-.team-soc__link:hover,
-.team-soc__link:focus{
-    background-color: #2196F3;
-}
+
 .team-soc__icon{
     fill: #AFB1B8;
+    &:hover,
+    &:focus{
+        fill: #FFFFFF;
+    }
 }
-.team-soc__link:hover .team-soc__icon {
-    fill: #FFFFFF;
-}
-.team-soc__link:focus .team-soc__icon{
-    fill: #FFFFFF;
-}
+
 .team-content__position{
     font-weight: 400;
     font-size: 16px;
